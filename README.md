@@ -3,7 +3,7 @@ tp_wpのwpテーマ化
 
 1、Local by Flywheelに環境作る <br>
 https://bazubu.com/local-by-flywheel-33920.html <br>
-2、settingから日本語に<br>
+2、settingから日本語に、(テーマとは？)<br>
 3、style.cssを作成
 
 ```
