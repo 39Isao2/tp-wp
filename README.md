@@ -30,43 +30,73 @@ version： 1.0.0
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>PLABE_Inc</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="株式会社プレイブは「いいモノを、いい空間を」提供するデザイン会社です。">
-<meta property="og:url" content="https://www.plabe.jp"/>
-<meta property="og:title" content="TOP" />
-<meta property="og:type" content="website">
-<meta property="og:image" content="images/footer_logo.png"/>
-<meta property="og:site_name" content="株式会社PLABE" />
-<meta property="og:locale" content="ja_JP" />
-<link rel="shortcut icon" href="images/logo_tate_white.png">
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/common.css">
-<link rel="stylesheet" href="css/style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Naoko Tategami Portfolio</title>
+	<meta name="Description" content="建守奈穂子のポートフォリオサイト">
+	<!--レスポンシブ -->
+	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+	<meta name="foemat-detection" content="telephone=no">
+	<!--ファビコン-->
+	<link rel="shortcut" href="img/favicon">
+	<link rel="apple-touch-icon" href="images/top/logo.png">
+	<!--フォント-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+	<!--css-->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
 </head>
 
 <body>
-	<header>
-		<div class="navigation">
-			<img src="images/header_mark_and_name.png" width="8%" alt="plabe_logo">
-			<ul class="menu">
-				<li class="menu_item"><a href="index.html">HOME</a></li>
-				<li class="menu_item"><a href="about/index.html">ABOUT US</a></li>
-				<li class="menu_item"><a href="company/index.html">COMPANY</a></li>
-				<li class="menu_item"><a href="mailto:info@plabe.jp?subject=%8c%8f%96%bc&amp;body=%96%7b%95%b6">CONTACT</a></li>
-			</ul>
-			<div class="navigation_col">
-				<a href="https://www.instagram.com/plabe_inc/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.facebook.com/PLABEinc/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-				<a class="online-store-btn" href="https://theshop.plabe.jp/" target="_blank"><p>ONLINE STORE</p></a>
-			</div>
-		</div>
-	</header>
+	<div class="wrapeer">
+<!--header-->
+<header class="header">
+	<div class="header_pc">
+	<h1 class="f-logo"><a href="index.html"><img src="images/top/logo.png" alt="logo_raion"></a></h1>
+	<!--navi-->
+	<ul class="nav-line">
+		<li><a href="web/index.html" class="length5">Web</a></li>
+		<li><a href="graphic/index.html" class="length5">Graphic</a></li>
+		<li><a href="illustration/index.html" class="length5">Illustration</a></li>
+		<li><a href="#profile" class="length6">profile</a></li>
+		<li><a href="#contact" class="length6">Contact</a></li>
+	</ul>
+	
+	<!--sns-->
+		<ul class="nav-list">
+			<li class="nav-item"><a href="https://www.instagram.com/n_tategami/" target="_blank" rel="noopener" class="instagram"><img src="images/top/insta.png" alt="inssuta"></a></li>
+		</ul>
+	</div>
+</header>
+	<!--ハンバーガーメニュー-->
+	<div class="hamburger">
+	<span class="nav_toggle">
+		<i></i>
+		<i></i>
+		<i></i>
+	</span>
+
+	<nav class="nav">
+    <ul class="nav_menu_ul">
+        <li class="nav_menu_li"><a href="index.html"><img src="images/top/logo.png" alt=""></a></li>
+        <li class="nav_menu_li"><a href="web/index.html">Web</a></li>
+        <li class="nav_menu_li"><a href="graphic/index.html">Graphic</a></li>
+		<li class="nav_menu_li"><a href="illustration/index.html">Illustration</a></li>
+		<li class="nav_menu_li"><a href="#profile">Profile</a></li>
+        <li class="nav_menu_li"><a href="#contact">Contact</a></li>
+    </ul>
+	<ul class="nav_sns">
+		<li class="nav_menu_li"><img src="images/top/insta.png" alt="inssuta"></li>
+	</ul>
+	</nav>
+	</div>
+<!--header-->	
 
 ```
 
