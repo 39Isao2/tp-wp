@@ -67,10 +67,13 @@ version： 1.0.0
 		<li><a href="#profile" class="length6">profile</a></li>
 		<li><a href="#contact" class="length6">Contact</a></li>
 	</ul>
-	
 	<!--sns-->
 		<ul class="nav-list">
-			<li class="nav-item"><a href="https://www.instagram.com/n_tategami/" target="_blank" rel="noopener" class="instagram"><img src="images/top/insta.png" alt="inssuta"></a></li>
+			<li class="nav-item">
+			<a href="https://www.instagram.com/n_tategami/" target="_blank" rel="noopener" class="instagram">
+			    <img src="images/top/insta.png" alt="inssuta">
+			</a>
+			</li>
 		</ul>
 	</div>
 </header>
@@ -81,19 +84,18 @@ version： 1.0.0
 		<i></i>
 		<i></i>
 	</span>
-
 	<nav class="nav">
-    <ul class="nav_menu_ul">
-        <li class="nav_menu_li"><a href="index.html"><img src="images/top/logo.png" alt=""></a></li>
-        <li class="nav_menu_li"><a href="web/index.html">Web</a></li>
-        <li class="nav_menu_li"><a href="graphic/index.html">Graphic</a></li>
+	    <ul class="nav_menu_ul">
+		<li class="nav_menu_li"><a href="index.html"><img src="images/top/logo.png" alt=""></a></li>
+		<li class="nav_menu_li"><a href="web/index.html">Web</a></li>
+		<li class="nav_menu_li"><a href="graphic/index.html">Graphic</a></li>
 		<li class="nav_menu_li"><a href="illustration/index.html">Illustration</a></li>
 		<li class="nav_menu_li"><a href="#profile">Profile</a></li>
-        <li class="nav_menu_li"><a href="#contact">Contact</a></li>
-    </ul>
-	<ul class="nav_sns">
-		<li class="nav_menu_li"><img src="images/top/insta.png" alt="inssuta"></li>
-	</ul>
+		<li class="nav_menu_li"><a href="#contact">Contact</a></li>
+	    </ul>
+	    <ul class="nav_sns">
+	        <li class="nav_menu_li"><img src="images/top/insta.png" alt="inssuta"></li>
+	    </ul>
 	</nav>
 	</div>
 <!--header-->	
