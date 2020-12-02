@@ -181,8 +181,8 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 		<li><a href="<?php echo home_url() ?>/web" class="length5">Web</a></li>
 		<li><a href="<?php echo home_url() ?>/graphic" class="length5">Graphic</a></li>
 		<li><a href="<?php echo home_url() ?>/illustration/" class="length5">Illustration</a></li>
-		<li><a href="#profile" class="length6">profile</a></li>
-		<li><a href="#contact" class="length6">Contact</a></li>
+		<li><a href="<?php echo home_url() ?>/#profile" class="length6">profile</a></li>
+		<li><a href="<?php echo home_url() ?>/#contact" class="length6">Contact</a></li>
 	</ul>
 	
 	<!--sns-->
@@ -205,8 +205,8 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
         <li class="nav_menu_li"><a href="<?php echo home_url() ?>/web">Web</a></li>
         <li class="nav_menu_li"><a href="<?php echo home_url() ?>/graphic">Graphic</a></li>
 		<li class="nav_menu_li"><a href="<?php echo home_url() ?>/illustration">Illustration</a></li>
-		<li class="nav_menu_li"><a href="#profile">Profile</a></li>
-        <li class="nav_menu_li"><a href="#contact">Contact</a></li>
+		<li class="nav_menu_li"><a href="<?php echo home_url() ?>#profile">Profile</a></li>
+        <li class="nav_menu_li"><a href="<?php echo home_url() ?>#contact">Contact</a></li>
     </ul>
 	<ul class="nav_sns">
 		<li class="nav_menu_li"><img src="<?php echo get_template_directory_uri(); ?>/images/top/insta.png" alt="inssuta"></li>
@@ -227,6 +227,16 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 ```
 
 ### footer.phpの作成
+
+```
+
+<!-- テーマのフォルダまでのパスを出力してくれる-->
+<?php echo get_template_directory_uri(); ?>
+
+<!-- トップページのURLを表示 -->
+<?php echo home_url() ?>
+
+```
 
 ```
 <!--footer-->
@@ -274,7 +284,7 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 
 ```
 
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/footer.png" width="600px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/footer.png" width="600px">
 
 
 11、index.phpの仕上げで他の部分も各所、WPのタグに書き換えましょう<br>
