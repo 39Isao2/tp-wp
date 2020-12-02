@@ -141,60 +141,79 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 ### header.phpの完成
 
 ```
-
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<!-- ブログ名、各ページの記事やタイトル-->
-<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="<?php bloginfo( 'description' ); ?>">
-<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/logo_tate_white.png">
-<!-- テーマのディレクトリ内のstyle.css読み込み -->
-<link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
-
-<!-- ディスクリプションの設定 -->
-<meta property="og:type" content="website">
-<meta property="og:title" content="<?php the_title() ?>" />
-<meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/footer_logo.png"/>
-<meta property="og:site_name" content="<?php bloginfo('name'); ?>" />
-
-<!-- google フォント-->
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-
-<!-- css読み込み -->
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css">
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
-
-<!-- wpの様々な機能を使えるようにするタグ -->
-<?php wp_head(); ?>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+	<meta name="Description" content="<?php bloginfo( 'description' ); ?>">
+	<!--レスポンシブ -->
+	<meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+	<meta name="foemat-detection" content="telephone=no">
+	<!--ファビコン-->
+	<link rel="shortcut" href="<?php echo get_template_directory_uri(); ?>/img/favicon">
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/top/logo.png">
+	<!--フォント-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap" rel="stylesheet">
+	<!--css-->
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+	
+	<!--jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	
+	<!-- 重要!!!  wpの様々な機能を使えるようにするタグ -->
+	<?php wp_head(); ?>
 
 </head>
 
-<!-- 各ページの情報のclassをつける(後に説明)-->
-<body <?php body_class(); ?>>
-	<header>
-		<div class="navigation">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/header_mark_and_name.png" width="8%" alt="plabe_logo">
-			<ul class="menu">
-				<li class="menu_item"><a href="<?php echo home_url() ?>">HOME</a></li>
-				<li class="menu_item"><a href="<?php echo home_url() ?>/about">ABOUT US</a></li>
-				<li class="menu_item"><a href="<?php echo home_url() ?>/company">COMPANY</a></li>
-				<li class="menu_item"><a href="<?php echo home_url() ?>/contact">COMPANY</a>CONTACT</a></li>
-			</ul>
-			<div class="navigation_col">
-				<a href="https://www.instagram.com/plabe_inc/?hl=ja" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="https://www.facebook.com/PLABEinc/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-				<a class="online-store-btn" href="https://theshop.plabe.jp/" target="_blank"><p>ONLINE STORE</p></a>
-			</div>
-		</div>
-	</header>
+<body>
+	<div class="wrapeer">
+<!--header-->
+<header class="header">
+	<div class="header_pc">
+	<h1 class="f-logo"><a href="<?php echo home_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/top/logo.png" alt="logo_raion"></a></h1>
+	<!--navi-->
+	<ul class="nav-line">
+		<li><a href="<?php echo home_url() ?>/web" class="length5">Web</a></li>
+		<li><a href="<?php echo home_url() ?>/graphic" class="length5">Graphic</a></li>
+		<li><a href="<?php echo home_url() ?>/illustration/" class="length5">Illustration</a></li>
+		<li><a href="#profile" class="length6">profile</a></li>
+		<li><a href="#contact" class="length6">Contact</a></li>
+	</ul>
+	
+	<!--sns-->
+		<ul class="nav-list">
+			<li class="nav-item"><a href="https://www.instagram.com/n_tategami/" target="_blank" rel="noopener" class="instagram"><img src="?php echo get_template_directory_uri(); ?>/images/top/insta.png" alt="inssuta"></a></li>
+		</ul>
+	</div>
+</header>
+	<!--ハンバーガーメニュー-->
+	<div class="hamburger">
+	<span class="nav_toggle">
+		<i></i>
+		<i></i>
+		<i></i>
+	</span>
+
+	<nav class="nav">
+    <ul class="nav_menu_ul">
+        <li class="nav_menu_li"><a href="<?php echo home_url() ?>"><img src="images/top/logo.png" alt=""></a></li>
+        <li class="nav_menu_li"><a href="<?php echo home_url() ?>/web">Web</a></li>
+        <li class="nav_menu_li"><a href="<?php echo home_url() ?>/graphic">Graphic</a></li>
+		<li class="nav_menu_li"><a href="<?php echo home_url() ?>/illustration">Illustration</a></li>
+		<li class="nav_menu_li"><a href="#profile">Profile</a></li>
+        <li class="nav_menu_li"><a href="#contact">Contact</a></li>
+    </ul>
+	<ul class="nav_sns">
+		<li class="nav_menu_li"><img src="<?php echo get_template_directory_uri(); ?>/images/top/insta.png" alt="inssuta"></li>
+	</ul>
+	</nav>
+	</div>
+<!--header-->	
 
 ```
 
