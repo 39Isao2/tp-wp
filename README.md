@@ -219,7 +219,7 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 
 9、header.phpとして保存して、index.phpにインクルードする。
 
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/header.png" width="800px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/header.png" width="800px">
 
 ```
 <!-- header.phpを読み込むタグ-->
