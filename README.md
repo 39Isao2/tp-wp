@@ -284,7 +284,7 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 
 ```
 
-<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/footer.png" width="600px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/footer.png" width="800px">
 
 
 11、index.phpの仕上げで他の部分も各所、WPのタグに書き換えましょう<br>
@@ -296,7 +296,7 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 
 ```
 index.phpのソース<br>
-https://gist.github.com/55Kaerukun/585068d5c4c371af4d7cbd2882bf8570
+https://gist.github.com/55Kaerukun/b306638d54a5b3aff1bf045cfc104856
 
 ### 管理画面から固定ページ制作の準備
 WPでは、下層ページのことを（固定ページ）と呼びます。<br>
@@ -314,8 +314,7 @@ WPでは、下層ページのことを（固定ページ）と呼びます。<br
 
 現状このような感じなので、下層ページを固定ページにしていきましょう！
 
-
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/directory.png" width="600px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/directory.png" width="600px">
 
 13、下層ページ(固定ページ)テンプレートの作成
 
