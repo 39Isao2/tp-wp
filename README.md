@@ -162,6 +162,9 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 	
+	<!-- テーマのディレクトリ内のstyle.css読み込み -->
+        <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>">
+	
 	<!--jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	
