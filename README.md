@@ -468,15 +468,15 @@ bodyタグの変更 (ページの情報をクラス名として出力してく�
 17、記事を投稿しましょう。<br>
 
 ### 投稿画面
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/toukou.png" width="800px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/toukou.png" width="800px">
 <br>
 <br>
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/toukouKekka.png" width="800px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/toukouKekka.png" width="800px">
 <br>
 <br>
 
 
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/news.png" width="800px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/news.png" width="800px">
 
 
 
@@ -488,11 +488,11 @@ bodyタグの変更 (ページの情報をクラス名として出力してく�
 
 <!-- news部分 -->
 <section class="news_section">
-	<h2>News & Topics</h2>
+	<h3 class="font_3">News & Topicsrks</h3>
 	<ul>
-		<li><a href="#"><span>2020.10.1</span>ホームページがリニューアルしました。</a></li>
-		<li><a href="#"><span>2020.10.1</span>臨時休業のお知らせ</a></li>
-		<li><a href="#"><span>2020.10.1</span>新商品追加のお知らせ</a></li>
+		<li><a href="#"><span>2020.12.7</span>ポートフォリオサイト作成しました。</a></li>
+		<li><a href="#"><span>2020.12.7</span>作品を追加しました。</a></li>
+		<li><a href="#"><span>2020.12.7</span>先日のイラレ講座のレポートを書きました</a></li>
 	</ul>
 </section>
 	
