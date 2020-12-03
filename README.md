@@ -352,7 +352,7 @@ http://tategamiptest.local/wp-content/themes/tategami_portfolio/
 ```
 
 
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/page.png" width="600px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/page.png" width="600px">
 
 
 
