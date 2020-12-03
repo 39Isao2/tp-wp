@@ -369,11 +369,13 @@ http://tategamiptest.local/wp-content/themes/tategami_portfolio/
 <!-- もし固定ページでスラッグgraphicだったら -->
 <?php if ( is_page('graphic') ) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/graphic.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common_p.css">
 <?php endif; ?>
 
 <!-- もし固定ページでスラッグillustrationだったら -->
 <?php if ( is_page('illustration') ) : ?>
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/illustration.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common_p.css">
 <?php endif; ?>
 
 
