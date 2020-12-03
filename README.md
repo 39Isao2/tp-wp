@@ -580,7 +580,7 @@ https://plusers.net/wordpress_theme_8 <br>
 ### category.phpの作成
 
 
-<img src="https://github.com/55Kaerukun/PLABE_INC_wp/blob/master/img/catlist.png" width="800px">
+<img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/catlist.png" width="800px">
 
 ```
 
