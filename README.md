@@ -356,7 +356,7 @@ http://tategamiptest.local/wp-content/themes/tategami_portfolio/
 
 
 
-### 条件分岐タグの使い方header.phpのcssの読み込み変更
+### 条件分岐タグの使い方header.phpのcssの読み込みをいじってcssのパスを通す
 ```
 
 
@@ -365,18 +365,22 @@ http://tategamiptest.local/wp-content/themes/tategami_portfolio/
 <?php endif; ?>
 
 
+
+<!-- もし固定ページでスラッグgraphicだったら -->
+<?php if ( is_page('graphic') ) : ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/graphic.css">
+<?php endif; ?>
+
+<!-- もし固定ページでスラッグillustrationだったら -->
+<?php if ( is_page('illustration') ) : ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/illustration.css">
+<?php endif; ?>
+
+
 <!-- もしトップページだったら -->
 <?php if (  is_front_page() ||  is_home() ) : ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/xxxxxxxxxxxxx.css">
 <?php endif; ?>
-
-<!-- もし固定ページでスラッグaboutだったら -->
-<?php if ( is_page('about') ) : ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/about.css">
-<?php endif; ?>
-
-
-↑ companyもpolicyも同じように書いてあげましょう。
 
 
 参考: WPよく使う条件分岐タグ
