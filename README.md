@@ -629,7 +629,7 @@ https://plusers.net/wordpress_theme_8 <br>
 if (has_post_thumbnail()) {
 	the_post_thumbnail( array(300,300) );
 } else {
-	 echo '<img src="http://plable2.local/wp-content/themes/plable/images/default.png">';
+	 echo '<img src="http://tategamiptest.local/wp-content/themes/tategami_portfolio/images/default.png">';
 }
 ?>
 
