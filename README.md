@@ -528,7 +528,7 @@ bodyタグの変更 (ページの情報をクラス名として出力してく�
 ```
 <!-- news部分のphp化 -->
 <section class="news_section">
-	<h2>News & Topics</h2>
+	<h3 class="font_3">News & Topics</h3>
 	<ul>
 	  <?php
 	    $args = array(
