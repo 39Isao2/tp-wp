@@ -348,7 +348,7 @@ WPでは、下層ページのことを（固定ページ）と呼びます。<br
 ここも一括置換
 
 // 画像までのパス
-http://plabeinc.local/wp-content/themes/PLABE_INC/images/
+http://tategamiptest.local/wp-content/themes/tategami_portfolio/
 ```
 
 
