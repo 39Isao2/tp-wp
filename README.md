@@ -471,11 +471,12 @@ bodyタグの変更 (ページの情報をクラス名として出力してく�
 <img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/toukou.png" width="800px">
 <br>
 <br>
+## 投稿記事ページ
 <img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/toukouKekka.png" width="800px">
 <br>
 <br>
 
-
+## トップページnews部分
 <img src="https://github.com/55Kaerukun/tp-wp/blob/main/img/news.png" width="800px">
 
 
