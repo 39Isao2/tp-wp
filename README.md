@@ -390,7 +390,11 @@ https://webdesignday.jp/inspiration/wordpress/4765/#is_page
 
 ```
 
-1日目ノルマ終了。
+graphicページのソース<br>
+https://gist.github.com/55Kaerukun/6de23312928eb08001a15354179c7f31 <br>
+
+webページのソース<br>
+https://gist.github.com/55Kaerukun/2da712443c917ad879bbafc90e953d0d <br>
 
 <br>
 
