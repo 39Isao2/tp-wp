@@ -684,6 +684,18 @@ if (has_post_thumbnail()) {
 
 フォーム完成！
 
+## index.phpやcategory.phpなどphpファイルに表示させたい時の使い方
+
+```
+do_shortcode関数を使って表示させます。
+
+<?php echo do_shortcode( '[ショートコード]' ); ?>
+
+<!-- 今回はこのような感じ -->
+<?php echo do_shortcode( '[contact-form-7 id="26" title="コンタクトフォーム 1"]' ); ?>
+
+```
+
 
 ### 本番アップ作業
 
