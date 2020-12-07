@@ -135,6 +135,9 @@ http://plabeinc.local/wp-content/themes/ を出力してくれる
 <!-- 直下のcss読み込む(テーマ名などの情報) -->
 <?php bloginfo( 'stylesheet_url' ); ?>
 
+<!-- 重要!!!  wpの様々な機能を使えるようにするタグ </head>直前に記述します。 -->
+<?php wp_head(); ?>
+
 
 ```
 
