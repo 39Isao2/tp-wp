@@ -635,19 +635,6 @@ if (has_post_thumbnail()) {
 
 <?php get_footer(); ?>
 
-
-  </div>
-  
-<?php endwhile; endif; ?>
-  
-<div class="pager">
-    <?php previous_posts_link('次のページへ'); ?>
-    <?php next_posts_link('前のページへ'); ?>
-</div>
-</main>
-
-<?php get_footer(); ?>
-
 ```
 
 ### お問い合わせフォームの作成（ Contact Form 7）
