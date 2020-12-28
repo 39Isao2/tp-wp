@@ -595,29 +595,10 @@ https://plusers.net/wordpress_theme_8 <br>
   
 <p><?php single_cat_title(); ?> カテゴリー記事の一覧です</p>
 
-<?php if(have_posts()): while(have_posts()):the_post(); ?>
-
-  <div class="content">
-    <!-- 投稿日付 -->
-    <time><?php the_time('Y.m.d'); ?></time>
-
-    <!-- タイトル出力 -->
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-
-    <!-- アイキャッチ出力 -->
-    <?php the_post_thumbnail('thumbnail'); ?>
-    
-<?php get_header(); ?>
-
-<main>
-  
-<p><?php single_cat_title(); ?> カテゴリー記事の一覧です</p>
 
 <section class="contents">
 
 <?php if(have_posts()): while(have_posts()):the_post(); ?>
-
-
 
   <div class="content">
     
