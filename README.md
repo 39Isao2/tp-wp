@@ -611,13 +611,13 @@ https://plusers.net/wordpress_theme_8 <br>
     
     <a href="<?php the_permalink(); ?>">
 
-<?php
-if (has_post_thumbnail()) {
-	the_post_thumbnail( array(300,300) );
-} else {
-	 echo '<img src="http://tategamiptest.local/wp-content/themes/tategami_portfolio/images/default.png">';
-}
-?>
+	<?php
+		if (has_post_thumbnail()) {
+			the_post_thumbnail( array(300,300) );
+		} else {
+			 echo '<img src="http://tategamiptest.local/wp-content/themes/tategami_portfolio/images/default.png">';
+		}
+	?>
 
     </a>
 
