@@ -555,7 +555,8 @@ bodyタグの変更 (ページの情報をクラス名として出力してく�
 
 
 ```
-
+「WordPress get_posts」この便利な PHP関数で投稿リストを表示する方法 <br>
+https://kinsta.com/jp/blog/wordpress-get_posts/
 
 
 
